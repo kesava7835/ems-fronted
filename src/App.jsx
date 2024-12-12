@@ -5,11 +5,12 @@ import './App.css'
 import ListofEmployess from './components/ListofEmployess'
 import Headercomponent from './components/Headercomponent'
 
-import Footercomponet from './components/footercomponet'; // Ensure the file is named correctly
+
 
 
 import{BrowserRouter, Route, Routes} from 'react-router-dom'
 import Employe from './components/Employe'
+import FooterComponent from './components/FooterComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,7 +27,7 @@ function App() {
           <Route path="/edit-employe/:id" element={<Employe/>}/>
           
         </Routes>
-        <Footercomponet/>
+        <FooterComponent/>
         </BrowserRouter>
       
         
