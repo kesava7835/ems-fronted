@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const rest_api_url='http://localhost:9090/api/employees';
+const rest_api_url='https://ems-backend-spring-production.up.railway.app';
 
 export const listEmploye= () => axios.get(rest_api_url);
 
